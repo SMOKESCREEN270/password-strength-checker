@@ -1,0 +1,122 @@
+$ pwstrength --no-color --stdin   # input: ********
+Password Strength Report
+────────────────────────
+Password   : ******** (8 characters)
+Strength   : WEAK  [░░░░░░░░░░░░░░░░░░░░] 1/100
+Entropy    : 1.6 bits effective (37.6 bits if purely random, pool of 26)
+Crack time : instantly (offline attack, 10,000,000,000 guesses/s)
+Dictionary : matches a known common password
+Policy     : FAILED (4)
+  ✗ At least 12 characters
+  ✓ At most 128 characters
+  ✓ Contains a lowercase letter (a-z)
+  ✗ Contains an uppercase letter (A-Z)
+  ✗ Contains a digit (0-9)
+  ✗ Contains a special character (e.g. !@#$%)
+Patterns   : dictionary
+Suggestions:
+  • This is a very common password (or a trivial variation of one). Choose something completely different.
+  • Make it at least 12 characters long (currently 8).
+  • Add an uppercase letter (A-Z).
+  • Add a digit (0-9).
+  • Add a special character (e.g. !@#$%).
+  • Avoid common words, names and predictable substitutions (like '@' for 'a'); attackers try these first.
+  • Adding about 9 more random character(s) would reach the next level.
+  • Best approach: a passphrase of 4-5 unrelated random words, or a 16+ character password produced by a password manager.
+
+$ pwstrength --no-color --stdin   # input: **********
+Password Strength Report
+────────────────────────
+Password   : ********** (10 characters)
+Strength   : WEAK  [███░░░░░░░░░░░░░░░░░] 14/100
+Entropy    : 14.2 bits effective (65.7 bits if purely random, pool of 95)
+Crack time : instantly (offline attack, 10,000,000,000 guesses/s)
+Policy     : FAILED (1)
+  ✗ At least 12 characters
+  ✓ At most 128 characters
+  ✓ Contains a lowercase letter (a-z)
+  ✓ Contains an uppercase letter (A-Z)
+  ✓ Contains a digit (0-9)
+  ✓ Contains a special character (e.g. !@#$%)
+Patterns   : dictionary
+Suggestions:
+  • Make it at least 12 characters long (currently 10).
+  • Avoid common words, names and predictable substitutions (like '@' for 'a'); attackers try these first.
+  • Adding about 4 more random character(s) would reach the next level.
+  • Best approach: a passphrase of 4-5 unrelated random words, or a 16+ character password produced by a password manager.
+
+$ pwstrength --no-color --stdin   # input: ***********
+Password Strength Report
+────────────────────────
+Password   : *********** (11 characters)
+Strength   : WEAK  [█░░░░░░░░░░░░░░░░░░░] 5/100
+Entropy    : 5.1 bits effective (56.9 bits if purely random, pool of 36)
+Crack time : instantly (offline attack, 10,000,000,000 guesses/s)
+Policy     : FAILED (3)
+  ✗ At least 12 characters
+  ✓ At most 128 characters
+  ✓ Contains a lowercase letter (a-z)
+  ✗ Contains an uppercase letter (A-Z)
+  ✓ Contains a digit (0-9)
+  ✗ Contains a special character (e.g. !@#$%)
+Patterns   : dictionary
+Suggestions:
+  • Make it at least 12 characters long (currently 11).
+  • Add an uppercase letter (A-Z).
+  • Add a special character (e.g. !@#$%).
+  • Avoid common words, names and predictable substitutions (like '@' for 'a'); attackers try these first.
+  • Adding about 7 more random character(s) would reach the next level.
+  • Best approach: a passphrase of 4-5 unrelated random words, or a 16+ character password produced by a password manager.
+
+$ pwstrength --no-color --stdin   # input: ***********
+Password Strength Report
+────────────────────────
+Password   : *********** (11 characters)
+Strength   : WEAK  [████████░░░░░░░░░░░░] 39/100
+Entropy    : 72.3 bits effective (72.3 bits if purely random, pool of 95)
+Crack time : thousands of years (offline attack, 10,000,000,000 guesses/s)
+Policy     : FAILED (1)
+  ✗ At least 12 characters
+  ✓ At most 128 characters
+  ✓ Contains a lowercase letter (a-z)
+  ✓ Contains an uppercase letter (A-Z)
+  ✓ Contains a digit (0-9)
+  ✓ Contains a special character (e.g. !@#$%)
+Suggestions:
+  • Make it at least 12 characters long (currently 11).
+  • Best approach: a passphrase of 4-5 unrelated random words, or a 16+ character password produced by a password manager.
+
+$ pwstrength --no-color --stdin   # input: ****************
+Password Strength Report
+────────────────────────
+Password   : **************** (16 characters)
+Strength   : EXCEPTIONAL  [████████████████████] 100/100
+Entropy    : 105.1 bits effective (105.1 bits if purely random, pool of 95)
+Crack time : over a billion years (offline attack, 10,000,000,000 guesses/s)
+Policy     : PASSED
+  ✓ At least 12 characters
+  ✓ At most 128 characters
+  ✓ Contains a lowercase letter (a-z)
+  ✓ Contains an uppercase letter (A-Z)
+  ✓ Contains a digit (0-9)
+  ✓ Contains a special character (e.g. !@#$%)
+Suggestions:
+  • Excellent password. Keep it unique per account and enable multi-factor authentication.
+
+$ pwstrength --no-color --stdin   # input: ************************
+Password Strength Report
+────────────────────────
+Password   : ************************ (24 characters)
+Strength   : EXCEPTIONAL  [████████████████████] 100/100
+Entropy    : 157.7 bits effective (157.7 bits if purely random, pool of 95)
+Crack time : over a billion years (offline attack, 10,000,000,000 guesses/s)
+Policy     : PASSED
+  ✓ At least 12 characters
+  ✓ At most 128 characters
+  ✓ Contains a lowercase letter (a-z)
+  ✓ Contains an uppercase letter (A-Z)
+  ✓ Contains a digit (0-9)
+  ✓ Contains a special character (e.g. !@#$%)
+Suggestions:
+  • Excellent password. Keep it unique per account and enable multi-factor authentication.
+
