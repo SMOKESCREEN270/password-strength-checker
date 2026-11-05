@@ -133,7 +133,3 @@ tests/            65 unit tests (policy, entropy, dictionary/breach, scoring, CL
 scripts/demo.sh   reproducible CLI demo
 .github/workflows/ci.yml   Dockerfile   Makefile   pyproject.toml
 ```
-
-## License
-
-MIT
